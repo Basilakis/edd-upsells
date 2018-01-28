@@ -1,0 +1,26 @@
+#animatedModal .close-animatedModal {
+    cursor: pointer;
+    font-size: 13px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+#animatedModal .modal-content {
+	padding-top: 100px;
+}
+
+#edd_checkout_cart.loading{
+	position: relative;
+}
+#edd_checkout_cart.loading::before {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
